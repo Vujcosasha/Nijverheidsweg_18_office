@@ -300,8 +300,6 @@
   <data name="uk_controlBar_dockedThumbnailsenterVRNotTip"><![CDATA[VR mode is unavailable]]></data>
   <data name="uk_controlBar_dockedThumbnailsdisplayControlsTip"><![CDATA[Show controls]]></data>
   <data name="uk_controlBar_dockedThumbnailshideControlsTip"><![CDATA[Hide controls]]></data>
-  <data name="uk_controlBar_dockedThumbnailsctrlmodeDragTip"><![CDATA[Change control mode]]></data>
-  <data name="uk_controlBar_dockedThumbnailsctrlmodeMoveTip"><![CDATA[Change control mode]]></data>
   <data name="uk_prevnexttheme1prevSceneTip"><![CDATA[Previous Scene]]></data>
   <data name="uk_prevnexttheme1nextSceneTip"><![CDATA[Next Scene]]></data>
   <data name="uk_logowebsiteurl"><![CDATA[]]></data>

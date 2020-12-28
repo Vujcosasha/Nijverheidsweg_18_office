@@ -1204,14 +1204,6 @@
       inc(controlBar_dockedThumbnailsbutton_pos, 36);
 
 
-      if (device.desktop,
-        set(layer[controlBar_dockedThumbnailsbtn_ctrlmode_drag_to].x, get(controlBar_dockedThumbnailsbutton_pos));
-        set(layer[controlBar_dockedThumbnailsbtn_ctrlmode_drag_to_bg].x, get(controlBar_dockedThumbnailsbutton_pos));
-        set(layer[controlBar_dockedThumbnailsbtn_ctrlmode_move_to].x, get(controlBar_dockedThumbnailsbutton_pos));
-        set(layer[controlBar_dockedThumbnailsbtn_ctrlmode_move_to_bg].x, get(controlBar_dockedThumbnailsbutton_pos));
-        inc(controlBar_dockedThumbnailsbutton_pos, 36);
-      );
-
 
       if(plugin[ptpvrmode] AND device.html5,
         set(layer[controlBar_dockedThumbnailsbtn_enter_vr].x, get(controlBar_dockedThumbnailsbutton_pos));
@@ -1515,59 +1507,6 @@
             />
 
 
-	<events name="controlBar_dockedThumbnailscontrolmodechangedevent" oncontrolmodechanged="controlBar_dockedThumbnailsupdateControlModeButtons();" keep="true"/>
-	<action name="controlBar_dockedThumbnailsHideControlModeButtons">
-		set(layer[controlBar_dockedThumbnailsbtn_ctrlmode_move_to].visible, false);
-		set(layer[controlBar_dockedThumbnailsbtn_ctrlmode_drag_to].visible, false);
-		set(layer[controlBar_dockedThumbnailsbtn_ctrlmode_move_to_bg].visible, false);
-		set(layer[controlBar_dockedThumbnailsbtn_ctrlmode_drag_to_bg].visible, false);
-	</action>
-	<action name="controlBar_dockedThumbnailsShowControlModeButtons">
-		if (tour_controlmodemousetype == "moveto",
-			set(layer[controlBar_dockedThumbnailsbtn_ctrlmode_drag_to].visible, true);
-			set(layer[controlBar_dockedThumbnailsbtn_ctrlmode_move_to].visible, false);
-			set(layer[controlBar_dockedThumbnailsbtn_ctrlmode_drag_to_bg].visible, true);
-			set(layer[controlBar_dockedThumbnailsbtn_ctrlmode_move_to_bg].visible, false);
-		,
-			set(layer[controlBar_dockedThumbnailsbtn_ctrlmode_move_to].visible, true);
-			set(layer[controlBar_dockedThumbnailsbtn_ctrlmode_drag_to].visible, false);
-			set(layer[controlBar_dockedThumbnailsbtn_ctrlmode_move_to_bg].visible, true);
-			set(layer[controlBar_dockedThumbnailsbtn_ctrlmode_drag_to_bg].visible, false);
-		);
-	</action>
-	<action name="controlBar_dockedThumbnailsupdateControlModeButtons">
-	if (device.desktop,
-		if (controlBar_dockedThumbnailsIsOpened,
-			controlBar_dockedThumbnailsShowControlModeButtons();
-		,
-			controlBar_dockedThumbnailsHideControlModeButtons();
-		);
-	,
-		controlBar_dockedThumbnailsHideControlModeButtons();
-	);
-	</action>
-	
-    <layer name="controlBar_dockedThumbnailsbtn_ctrlmode_move_to_bg" style="controlBar_dockedThumbnails_btn_style_bg" visible="false" devices="desktop" />
-    <layer name="controlBar_dockedThumbnailsbtn_ctrlmode_move_to"
-           url="%FIRSTXML%/graphics/dockedthumbscontrolbar/btn_move_to.png"
-           style="controlBar_dockedThumbnails_btn_style"
-           tooltip="controlBar_dockedThumbnailsctrlmodeMoveTip"
-           onclick="setControlModeMoveTo();
-"
-           visible="false"
-           devices="desktop"
-           />
-    <layer name="controlBar_dockedThumbnailsbtn_ctrlmode_drag_to_bg" style="controlBar_dockedThumbnails_btn_style_bg" visible="false" devices="desktop" />
-    <layer name="controlBar_dockedThumbnailsbtn_ctrlmode_drag_to"
-           url="%FIRSTXML%/graphics/dockedthumbscontrolbar/btn_drag_to.png"
-           style="controlBar_dockedThumbnails_btn_style"
-           tooltip="controlBar_dockedThumbnailsctrlmodeDragTip"
-           onclick="setControlModeDragTo();
-"
-           visible="false"
-           devices="desktop"
-           />
-
 
 
 <events name="controlBar_dockedThumbnailsvravailableevent"
@@ -1764,7 +1703,6 @@
 		controlBar_dockedThumbnailsupdateAutotourButtons();
 		controlBar_dockedThumbnailsupdateVrButtons();
 
-		controlBar_dockedThumbnailsupdateControlModeButtons();
 		controlBar_dockedThumbnailsupdateFullscreenButtons();
 		controlBar_dockedThumbnailsupdateHelpButtons();
 </action>
@@ -1776,7 +1714,6 @@
       controlBar_dockedThumbnailsupdateGyroscopeButtons();
 	controlBar_dockedThumbnailsupdateVrButtons();
 
-      controlBar_dockedThumbnailsupdateControlModeButtons();
       controlBar_dockedThumbnailsupdateHelpButtons();
       set(layer[controlBar_dockedThumbnails_bg].visible, true);
 	set(layer[controlBar_dockedThumbnailsbtn_showcontrols].visible, false);
@@ -2039,7 +1976,7 @@
 	bg="false"
 	bgborder="0"
 	txtshadow="1.0 1.0 4.0 0x000000 1"
-	css="color:#ff0000;font-family:Times New Roman;font-weight:bold;font-size:14px;text-align:left;"
+	css="color:#ff9090;font-family:Times New Roman;font-weight:bold;font-size:14px;text-align:left;"
 	interactivecontent="false"
 	zorder="0"
 	padding="2"
@@ -2112,7 +2049,7 @@
   </action>
   <layer name="title1" keep="true" zorder="7"
          type="text"
-         align="top" x="0" y="10"
+         align="top" x="30" y="10"
          bg="false"
          bgborder="0"
          alpha="1"
@@ -2134,7 +2071,7 @@
 
   <layer align="topright"
          x="20"
-         y="20"
+         y="50"
          zorder="8"
          name="logo"
          keep="true"
