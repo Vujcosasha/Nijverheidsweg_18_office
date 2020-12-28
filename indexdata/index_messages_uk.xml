@@ -5,149 +5,277 @@
 <!--         Messages         -->
 <!-- ************************ -->
 
-  <data name="uk_project_title"><![CDATA[New Project]]></data>
+  <data name="uk_project_title"><![CDATA[Nijverheidsweg 18]]></data>
 
 
 
-  <data name="uk_pano194_title"><![CDATA[p1]]></data>
+  <data name="uk_pano194_title"><![CDATA[Panorama 1]]></data>
+  <data name="uk_spotpoint288_tooltip"><![CDATA[Panorama 2]]></data>
+  <data name="uk_spotpoint290_tooltip"><![CDATA[Panorama 3]]></data>
+  <data name="uk_spotpoint896_tooltip"><![CDATA[Panorama 7]]></data>
+  <data name="uk_spotpoint897_tooltip"><![CDATA[Panorama 5]]></data>
 
 
-  <data name="uk_pano195_title"><![CDATA[p10]]></data>
+  <data name="uk_pano205_title"><![CDATA[Panorama 2]]></data>
+  <data name="uk_spotpoint291_tooltip"><![CDATA[Panorama 1]]></data>
+  <data name="uk_spotpoint292_tooltip"><![CDATA[Panorama 6]]></data>
 
 
-  <data name="uk_pano196_title"><![CDATA[p11]]></data>
+  <data name="uk_pano216_title"><![CDATA[Panorama 3]]></data>
+  <data name="uk_spotpoint293_tooltip"><![CDATA[Panorama 1]]></data>
+  <data name="uk_spotpoint294_tooltip"><![CDATA[Panorama 4]]></data>
+  <data name="uk_spotpoint295_tooltip"><![CDATA[Panorama 5]]></data>
+  <data name="uk_spotpoint296_tooltip"><![CDATA[panorama 13]]></data>
 
 
-  <data name="uk_pano197_title"><![CDATA[p12]]></data>
+  <data name="uk_pano286_title"><![CDATA[Panorama 4]]></data>
+  <data name="uk_spotpoint298_tooltip"><![CDATA[Panorama 3]]></data>
+  <data name="uk_spotpoint299_tooltip"><![CDATA[Panorama 7]]></data>
 
 
-  <data name="uk_pano198_title"><![CDATA[p13]]></data>
+  <data name="uk_pano227_title"><![CDATA[Panorama 5]]></data>
+  <data name="uk_spotpoint301_tooltip"><![CDATA[Panorama 3]]></data>
+  <data name="uk_spotpoint898_tooltip"><![CDATA[Panorama 1]]></data>
+  <data name="uk_spotpoint899_tooltip"><![CDATA[panorama 19]]></data>
 
 
-  <data name="uk_pano199_title"><![CDATA[p14]]></data>
+  <data name="uk_pano234_title"><![CDATA[Panorama 6]]></data>
+  <data name="uk_spotpoint303_tooltip"><![CDATA[Panorama 1]]></data>
 
 
-  <data name="uk_pano200_title"><![CDATA[p15]]></data>
+  <data name="uk_pano235_title"><![CDATA[Panorama 7]]></data>
+  <data name="uk_spotpoint304_tooltip"><![CDATA[panorama 12]]></data>
+  <data name="uk_spotpoint306_tooltip"><![CDATA[Panorama 11]]></data>
+  <data name="uk_spotpoint310_tooltip"><![CDATA[panorama 18]]></data>
+  <data name="uk_spotpoint311_tooltip"><![CDATA[Panorama 4]]></data>
 
 
-  <data name="uk_pano201_title"><![CDATA[p16]]></data>
+  <data name="uk_pano236_title"><![CDATA[Panorama 8]]></data>
+  <data name="uk_spotpoint315_tooltip"><![CDATA[Panorama 7]]></data>
+  <data name="uk_spotpoint316_tooltip"><![CDATA[Panorama 9]]></data>
+  <data name="uk_spotpoint317_tooltip"><![CDATA[panorama 21]]></data>
 
 
-  <data name="uk_pano202_title"><![CDATA[p17]]></data>
+  <data name="uk_pano237_title"><![CDATA[Panorama 9]]></data>
+  <data name="uk_spotpoint320_tooltip"><![CDATA[Panorama 7]]></data>
+  <data name="uk_spotpoint321_tooltip"><![CDATA[Panorama 8]]></data>
+  <data name="uk_spotpoint323_tooltip"><![CDATA[panorama 21]]></data>
 
 
-  <data name="uk_pano203_title"><![CDATA[p18]]></data>
+  <data name="uk_pano238_title"><![CDATA[Panorama 10]]></data>
+  <data name="uk_spotpoint302_tooltip"><![CDATA[Panorama 7]]></data>
+  <data name="uk_spotpoint307_tooltip"><![CDATA[panorama 18]]></data>
+  <data name="uk_spotpoint308_tooltip"><![CDATA[Panorama 4]]></data>
 
 
-  <data name="uk_pano204_title"><![CDATA[p19]]></data>
+  <data name="uk_pano195_title"><![CDATA[Panorama 11]]></data>
+  <data name="uk_spotpoint312_tooltip"><![CDATA[Panorama 7]]></data>
+  <data name="uk_spotpoint313_tooltip"><![CDATA[Panorama 8]]></data>
+  <data name="uk_spotpoint314_tooltip"><![CDATA[Panorama 9]]></data>
 
 
-  <data name="uk_pano205_title"><![CDATA[p2]]></data>
+  <data name="uk_pano196_title"><![CDATA[panorama 12]]></data>
+  <data name="uk_spotpoint324_tooltip"><![CDATA[Panorama 8]]></data>
+  <data name="uk_spotpoint325_tooltip"><![CDATA[Panorama 7]]></data>
+  <data name="uk_spotpoint326_tooltip"><![CDATA[Panorama 9]]></data>
 
 
-  <data name="uk_pano206_title"><![CDATA[p20]]></data>
+  <data name="uk_pano197_title"><![CDATA[panorama 13]]></data>
+  <data name="uk_spotpoint327_tooltip"><![CDATA[panorama 20]]></data>
+  <data name="uk_spotpoint328_tooltip"><![CDATA[Panorama 3]]></data>
+  <data name="uk_spotpoint329_tooltip"><![CDATA[panorama 14]]></data>
+  <data name="uk_spotpoint330_tooltip"><![CDATA[panorama 15]]></data>
+  <data name="uk_spotpoint435_tooltip"><![CDATA[Panorama 7]]></data>
 
 
-  <data name="uk_pano207_title"><![CDATA[p21]]></data>
+  <data name="uk_pano198_title"><![CDATA[panorama 14]]></data>
+  <data name="uk_spotpoint331_tooltip"><![CDATA[panorama 13]]></data>
+  <data name="uk_spotpoint332_tooltip"><![CDATA[panorama 17]]></data>
+  <data name="uk_spotpoint334_tooltip"><![CDATA[panorama 20]]></data>
 
 
-  <data name="uk_pano208_title"><![CDATA[p22]]></data>
+  <data name="uk_pano199_title"><![CDATA[panorama 15]]></data>
+  <data name="uk_spotpoint335_tooltip"><![CDATA[panorama 19]]></data>
+  <data name="uk_spotpoint336_tooltip"><![CDATA[panorama 20]]></data>
+  <data name="uk_spotpoint337_tooltip"><![CDATA[panorama 16]]></data>
 
 
-  <data name="uk_pano209_title"><![CDATA[p23]]></data>
+  <data name="uk_pano200_title"><![CDATA[panorama 16]]></data>
+  <data name="uk_spotpoint338_tooltip"><![CDATA[panorama 17]]></data>
+  <data name="uk_spotpoint340_tooltip"><![CDATA[panorama 15]]></data>
 
 
-  <data name="uk_pano210_title"><![CDATA[p24]]></data>
+  <data name="uk_pano201_title"><![CDATA[panorama 17]]></data>
+  <data name="uk_spotpoint341_tooltip"><![CDATA[panorama 14]]></data>
+  <data name="uk_spotpoint342_tooltip"><![CDATA[panorama 16]]></data>
+  <data name="uk_spotpoint343_tooltip"><![CDATA[panorama 18]]></data>
 
 
-  <data name="uk_pano211_title"><![CDATA[p25]]></data>
+  <data name="uk_pano202_title"><![CDATA[panorama 18]]></data>
+  <data name="uk_spotpoint344_tooltip"><![CDATA[Panorama 10]]></data>
+  <data name="uk_spotpoint345_tooltip"><![CDATA[panorama 17]]></data>
+  <data name="uk_spotpoint346_tooltip"><![CDATA[panorama 19]]></data>
 
 
-  <data name="uk_pano212_title"><![CDATA[p26]]></data>
+  <data name="uk_pano204_title"><![CDATA[panorama 19]]></data>
+  <data name="uk_spotpoint354_tooltip"><![CDATA[Panorama 3]]></data>
+  <data name="uk_spotpoint355_tooltip"><![CDATA[Panorama 5]]></data>
+  <data name="uk_spotpoint356_tooltip"><![CDATA[Panorama 7]]></data>
+  <data name="uk_spotpoint357_tooltip"><![CDATA[panorama 13]]></data>
 
 
-  <data name="uk_pano213_title"><![CDATA[p27]]></data>
+  <data name="uk_pano203_title"><![CDATA[panorama 20]]></data>
+  <data name="uk_spotpoint351_tooltip"><![CDATA[panorama 21]]></data>
+  <data name="uk_spotpoint352_tooltip"><![CDATA[panorama 15]]></data>
+  <data name="uk_spotpoint353_tooltip"><![CDATA[panorama 22]]></data>
 
 
-  <data name="uk_pano214_title"><![CDATA[p28]]></data>
+  <data name="uk_pano206_title"><![CDATA[panorama 21]]></data>
+  <data name="uk_spotpoint358_tooltip"><![CDATA[panorama 20]]></data>
+  <data name="uk_spotpoint359_tooltip"><![CDATA[panorama 15]]></data>
+  <data name="uk_spotpoint360_tooltip"><![CDATA[panorama 14]]></data>
+  <data name="uk_spotpoint361_tooltip"><![CDATA[panorama 19]]></data>
 
 
-  <data name="uk_pano215_title"><![CDATA[p29]]></data>
+  <data name="uk_pano222_title"><![CDATA[panorama 22]]></data>
+  <data name="uk_spotpoint362_tooltip"><![CDATA[panorama 23]]></data>
+  <data name="uk_spotpoint363_tooltip"><![CDATA[panorama 20]]></data>
+  <data name="uk_spotpoint364_tooltip"><![CDATA[panorama 26]]></data>
 
 
-  <data name="uk_pano216_title"><![CDATA[p3]]></data>
+  <data name="uk_pano208_title"><![CDATA[panorama 23]]></data>
+  <data name="uk_spotpoint365_tooltip"><![CDATA[panorama 22]]></data>
+  <data name="uk_spotpoint366_tooltip"><![CDATA[panorama 24]]></data>
+  <data name="uk_spotpoint367_tooltip"><![CDATA[panorama 25]]></data>
 
 
-  <data name="uk_pano217_title"><![CDATA[p30]]></data>
+  <data name="uk_pano223_title"><![CDATA[panorama 24]]></data>
+  <data name="uk_spotpoint368_tooltip"><![CDATA[panorama 23]]></data>
+  <data name="uk_spotpoint369_tooltip"><![CDATA[panorama 25]]></data>
+  <data name="uk_spotpoint370_tooltip"><![CDATA[panorama 28]]></data>
+  <data name="uk_spotpoint371_tooltip"><![CDATA[panorama 27]]></data>
 
 
-  <data name="uk_pano218_title"><![CDATA[p31]]></data>
+  <data name="uk_pano220_title"><![CDATA[panorama 25]]></data>
+  <data name="uk_spotpoint372_tooltip"><![CDATA[panorama 27]]></data>
+  <data name="uk_spotpoint373_tooltip"><![CDATA[panorama 23]]></data>
 
 
-  <data name="uk_pano219_title"><![CDATA[p32]]></data>
+  <data name="uk_pano221_title"><![CDATA[panorama 26]]></data>
+  <data name="uk_spotpoint374_tooltip"><![CDATA[panorama 23]]></data>
 
 
-  <data name="uk_pano220_title"><![CDATA[p33]]></data>
+  <data name="uk_pano209_title"><![CDATA[panorama 27]]></data>
+  <data name="uk_spotpoint375_tooltip"><![CDATA[panorama 24]]></data>
+  <data name="uk_spotpoint376_tooltip"><![CDATA[panorama 25]]></data>
+  <data name="uk_spotpoint377_tooltip"><![CDATA[panorama 34]]></data>
+  <data name="uk_spotpoint379_tooltip"><![CDATA[panorama 37]]></data>
 
 
-  <data name="uk_pano221_title"><![CDATA[p34]]></data>
+  <data name="uk_pano224_title"><![CDATA[panorama 28]]></data>
+  <data name="uk_spotpoint381_tooltip"><![CDATA[panorama 29]]></data>
+  <data name="uk_spotpoint382_tooltip"><![CDATA[panorama 30]]></data>
+  <data name="uk_spotpoint383_tooltip"><![CDATA[panorama 24]]></data>
 
 
-  <data name="uk_pano222_title"><![CDATA[p35]]></data>
+  <data name="uk_pano215_title"><![CDATA[panorama 29]]></data>
+  <data name="uk_spotpoint384_tooltip"><![CDATA[panorama 28]]></data>
 
 
-  <data name="uk_pano223_title"><![CDATA[p36]]></data>
+  <data name="uk_pano217_title"><![CDATA[panorama 30]]></data>
+  <data name="uk_spotpoint385_tooltip"><![CDATA[panorama 28]]></data>
+  <data name="uk_spotpoint386_tooltip"><![CDATA[panorama 31]]></data>
 
 
-  <data name="uk_pano224_title"><![CDATA[p37]]></data>
+  <data name="uk_pano218_title"><![CDATA[panorama 31]]></data>
+  <data name="uk_spotpoint388_tooltip"><![CDATA[panorama 30]]></data>
+  <data name="uk_spotpoint389_tooltip"><![CDATA[panorama 32]]></data>
+  <data name="uk_spotpoint392_tooltip"><![CDATA[panorama 42]]></data>
+  <data name="uk_spotpoint393_tooltip"><![CDATA[panorama 33]]></data>
 
 
-  <data name="uk_pano225_title"><![CDATA[p38]]></data>
+  <data name="uk_pano219_title"><![CDATA[panorama 32]]></data>
+  <data name="uk_spotpoint394_tooltip"><![CDATA[panorama 31]]></data>
+  <data name="uk_spotpoint395_tooltip"><![CDATA[panorama 42]]></data>
+  <data name="uk_spotpoint396_tooltip"><![CDATA[panorama 33]]></data>
 
 
-  <data name="uk_pano226_title"><![CDATA[p39]]></data>
+  <data name="uk_pano230_title"><![CDATA[panorama 33]]></data>
+  <data name="uk_spotpoint397_tooltip"><![CDATA[panorama 42]]></data>
+  <data name="uk_spotpoint398_tooltip"><![CDATA[panorama 27]]></data>
+  <data name="uk_spotpoint399_tooltip"><![CDATA[panorama 43]]></data>
+  <data name="uk_spotpoint400_tooltip"><![CDATA[panorama 37]]></data>
+  <data name="uk_spotpoint401_tooltip"><![CDATA[panorama 36]]></data>
 
 
-  <data name="uk_pano227_title"><![CDATA[p4]]></data>
+  <data name="uk_pano225_title"><![CDATA[panorama 34]]></data>
+  <data name="uk_spotpoint403_tooltip"><![CDATA[panorama 33]]></data>
+  <data name="uk_spotpoint404_tooltip"><![CDATA[panorama 27]]></data>
+  <data name="uk_spotpoint405_tooltip"><![CDATA[panorama 37]]></data>
+  <data name="uk_spotpoint406_tooltip"><![CDATA[panorama 36]]></data>
 
 
-  <data name="uk_pano228_title"><![CDATA[p40]]></data>
+  <data name="uk_pano207_title"><![CDATA[panorama 35]]></data>
+  <data name="uk_spotpoint408_tooltip"><![CDATA[panorama 27]]></data>
+  <data name="uk_spotpoint410_tooltip"><![CDATA[panorama 33]]></data>
+  <data name="uk_spotpoint411_tooltip"><![CDATA[panorama 43]]></data>
+  <data name="uk_spotpoint412_tooltip"><![CDATA[panorama 37]]></data>
 
 
-  <data name="uk_pano229_title"><![CDATA[p41]]></data>
+  <data name="uk_pano210_title"><![CDATA[panorama 36]]></data>
+  <data name="uk_spotpoint413_tooltip"><![CDATA[panorama 33]]></data>
+  <data name="uk_spotpoint415_tooltip"><![CDATA[panorama 27]]></data>
+  <data name="uk_spotpoint416_tooltip"><![CDATA[panorama 37]]></data>
 
 
-  <data name="uk_pano230_title"><![CDATA[p42]]></data>
+  <data name="uk_pano229_title"><![CDATA[panorama 37]]></data>
+  <data name="uk_spotpoint417_tooltip"><![CDATA[panorama 38]]></data>
+  <data name="uk_spotpoint418_tooltip"><![CDATA[panorama 39]]></data>
+  <data name="uk_spotpoint419_tooltip"><![CDATA[panorama 35]]></data>
 
 
-  <data name="uk_pano231_title"><![CDATA[p43]]></data>
+  <data name="uk_pano212_title"><![CDATA[panorama 38]]></data>
+  <data name="uk_spotpoint420_tooltip"><![CDATA[panorama 44]]></data>
+  <data name="uk_spotpoint421_tooltip"><![CDATA[panorama 37]]></data>
 
 
-  <data name="uk_pano232_title"><![CDATA[p44]]></data>
+  <data name="uk_pano226_title"><![CDATA[panorama 39]]></data>
+  <data name="uk_spotpoint422_tooltip"><![CDATA[panorama 41]]></data>
+  <data name="uk_spotpoint423_tooltip"><![CDATA[panorama 40]]></data>
+  <data name="uk_spotpoint424_tooltip"><![CDATA[panorama 37]]></data>
 
 
-  <data name="uk_pano233_title"><![CDATA[p46]]></data>
+  <data name="uk_pano214_title"><![CDATA[panorama 40]]></data>
+  <data name="uk_spotpoint425_tooltip"><![CDATA[panorama 39]]></data>
 
 
-  <data name="uk_pano234_title"><![CDATA[p5]]></data>
+  <data name="uk_pano213_title"><![CDATA[panorama 41]]></data>
+  <data name="uk_spotpoint426_tooltip"><![CDATA[panorama 39]]></data>
+  <data name="uk_spotpoint427_tooltip"><![CDATA[panorama 22]]></data>
 
 
-  <data name="uk_pano235_title"><![CDATA[p6]]></data>
+  <data name="uk_pano228_title"><![CDATA[panorama 42]]></data>
+  <data name="uk_spotpoint430_tooltip"><![CDATA[panorama 33]]></data>
+  <data name="uk_spotpoint431_tooltip"><![CDATA[panorama 31]]></data>
+  <data name="uk_spotpoint432_tooltip"><![CDATA[panorama 32]]></data>
 
 
-  <data name="uk_pano236_title"><![CDATA[p7]]></data>
+  <data name="uk_pano211_title"><![CDATA[panorama 43]]></data>
+  <data name="uk_spotpoint428_tooltip"><![CDATA[panorama 35]]></data>
+  <data name="uk_spotpoint429_tooltip"><![CDATA[panorama 36]]></data>
 
 
-  <data name="uk_pano237_title"><![CDATA[p8]]></data>
+  <data name="uk_pano284_title"><![CDATA[panorama 44]]></data>
+  <data name="uk_spotpoint433_tooltip"><![CDATA[panorama 38]]></data>
 
 
-  <data name="uk_pano238_title"><![CDATA[p9]]></data>
+  <data name="uk_pano231_title"><![CDATA[panorama 45]]></data>
 
 
-  <data name="uk_pano284_title"><![CDATA[p47]]></data>
+  <data name="uk_pano232_title"><![CDATA[panorama 46]]></data>
 
 
-  <data name="uk_pano286_title"><![CDATA[p3_1]]></data>
+  <data name="uk_pano233_title"><![CDATA[panorama 47]]></data>
 
 
 
@@ -159,27 +287,25 @@
   <data name="uk_contextmenunormallabel"><![CDATA[Normal View]]></data>
   <data name="uk_contextmenuarchitecturallabel"><![CDATA[Architectural View]]></data>
   <data name="uk_contextmenulittleplanetlabel"><![CDATA[Little Planet View]]></data>
-  <data name="uk_controlBar_dockedThumbnailszoomInTip"><![CDATA[Zoom in]]></data>
-  <data name="uk_controlBar_dockedThumbnailszoomOutTip"><![CDATA[Zoom out]]></data>
-  <data name="uk_controlBar_dockedThumbnailsmoveLeftTip"><![CDATA[Move left]]></data>
-  <data name="uk_controlBar_dockedThumbnailsmoveRightTip"><![CDATA[Move right]]></data>
-  <data name="uk_controlBar_dockedThumbnailsmoveUpTip"><![CDATA[Move up]]></data>
-  <data name="uk_controlBar_dockedThumbnailsmoveDownTip"><![CDATA[Move down]]></data>
   <data name="uk_controlBar_dockedThumbnailsopenFsTip"><![CDATA[Enter fullscreen]]></data>
   <data name="uk_controlBar_dockedThumbnailscloseFsTip"><![CDATA[Exit fullscreen]]></data>
-  <data name="uk_controlBar_dockedThumbnailsautorotateOnTip"><![CDATA[Start autorotation]]></data>
-  <data name="uk_controlBar_dockedThumbnailsautorotateOffTip"><![CDATA[Stop autorotation]]></data>
+  <data name="uk_controlBar_dockedThumbnailsautotourOnTip"><![CDATA[Start automatic tour]]></data>
+  <data name="uk_controlBar_dockedThumbnailsautotourOffTip"><![CDATA[Stop automatic tour]]></data>
   <data name="uk_controlBar_dockedThumbnailsgyroOnTip"><![CDATA[Enable gyroscope]]></data>
   <data name="uk_controlBar_dockedThumbnailsgyroOffTip"><![CDATA[Disable gyroscope]]></data>
   <data name="uk_controlBar_dockedThumbnailsgyroNotTip"><![CDATA[Gyroscope is unavailable]]></data>
   <data name="uk_controlBar_dockedThumbnailsdisplayHelpTip"><![CDATA[Show help screen]]></data>
   <data name="uk_controlBar_dockedThumbnailshideHelpTip"><![CDATA[Hide help screen]]></data>
+  <data name="uk_controlBar_dockedThumbnailsenterVRTip"><![CDATA[VR mode]]></data>
+  <data name="uk_controlBar_dockedThumbnailsenterVRNotTip"><![CDATA[VR mode is unavailable]]></data>
   <data name="uk_controlBar_dockedThumbnailsdisplayControlsTip"><![CDATA[Show controls]]></data>
   <data name="uk_controlBar_dockedThumbnailshideControlsTip"><![CDATA[Hide controls]]></data>
   <data name="uk_controlBar_dockedThumbnailsctrlmodeDragTip"><![CDATA[Change control mode]]></data>
   <data name="uk_controlBar_dockedThumbnailsctrlmodeMoveTip"><![CDATA[Change control mode]]></data>
   <data name="uk_prevnexttheme1prevSceneTip"><![CDATA[Previous Scene]]></data>
   <data name="uk_prevnexttheme1nextSceneTip"><![CDATA[Next Scene]]></data>
+  <data name="uk_logowebsiteurl"><![CDATA[]]></data>
+  <data name="uk_logotooltipText"><![CDATA[Open website]]></data>
 
 
   <data name="uk_vr_setup_hmd0"><![CDATA[SELECT YOUR HMD]]></data>
