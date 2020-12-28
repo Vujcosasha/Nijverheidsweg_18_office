@@ -770,6 +770,6 @@ stopautorotation();
     );
   </action>
 
-
+  <events name="gyroscope" keep="true" devices="ios" onclick="set(plugin[gyroscope].enabled,true);" />
 
 </krpano>

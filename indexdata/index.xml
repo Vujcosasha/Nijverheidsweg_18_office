@@ -7802,6 +7802,7 @@
       <down  url="p46_233/mobile/5.jpg"/>
     </image>
 
+    <events name="gyroscope" keep="true" devices="ios" onclick="set(plugin[gyroscope].enabled,true);" />
 
 
 

@@ -1545,6 +1545,7 @@ stopautorotation();
 
   <cursors standard="default" dragging="grab" moving="move" />
 
+  <events name="gyroscope" keep="true" devices="ios" onclick="set(plugin[gyroscope].enabled,true);" />
 
 
 </krpano>
