@@ -34,48 +34,100 @@
 
 
 
-<!-- ********** -->
-<!-- Logo -->
-<!-- id : logo -->
-<!-- ********** -->
-
-
-
-
+  <!-- ********************************* -->
+  <!--        VR PREV NEXT               -->
+  <!-- Based on krpano sample  tour code -->
+  <!-- ********************************* -->
+<style name="vrprevnextspotstyle"    depth="800" distorted="true" ath="0" atv="45" visible="true" devices="html5"  onover="vrprevnextOnOver();" onout="vrprevnextOnOut();"/>
+<style name="vrprevnextbtnspotstyle" depth="800" distorted="true" ath="0" atv="45" visible="true" devices="html5"  onover="vrprevnextOnOver();" onout="vrprevnextOnOut();" zorder="6" crop="0|0|60|60" onovercrop="0|60|60|60" ondowncrop="0|120|60|60" width="40" height="40"/>
+<hotspot name="vr_menu_bg" style="vrprevnextspotstyle" keep="true" zorder="5" url="%FIRSTXML%/graphics/vr-prevnext/transparent.png" width="300" height="90" handcursor="false" devices="html5"  />
+<hotspot name="vrprevnextBtnPrevScene" style="vrprevnextbtnspotstyle" keep="true" url="%FIRSTXML%/graphics/vr-prevnext/btn_previous_scene.png" ox="-30" onclick="loadPreviousScene();
+" devices="html5"/>
+<hotspot name="vrprevnextBtnNextScene" style="vrprevnextbtnspotstyle" keep="true" url="%FIRSTXML%/graphics/vr-prevnext/btn_next_scene.png"     ox="+30" onclick="loadNextScene();
+" devices="html5"/>
+<action name="vrprevnextOnOver" devices="html5">
+  callwith(hotspot[vrprevnextBtnPrevScene], tween(alpha|depth,1.0|650); ); 
+  callwith(hotspot[vrprevnextBtnNextScene], tween(alpha|depth,1.0|650); );
+</action>
+<action name="vrprevnextOnOut" devices="html5">
+  callwith(hotspot[vrprevnextBtnPrevScene], tween(alpha|depth,0.75|800); ); 
+  callwith(hotspot[vrprevnextBtnNextScene], tween(alpha|depth,0.75|800); );
+</action>
+<events name="vrprevnextevents" onviewchange="vrprevnextOnViewChange();" keep="true" devices="html5"/>
+<action name="vrprevnextOnViewChange" type="Javascript" devices="html5">
+<![CDATA[
+  var hs1 = krpano.get("hotspot[vr_menu_bg]");
+  var hs3 = krpano.get("hotspot[vrprevnextBtnPrevScene]");
+  var hs4 = krpano.get("hotspot[vrprevnextBtnNextScene]");
+ 
+  if (!hs1.hovering )
+  {
+    var f = 0.01;  // follow speed factor
+    var h = krpano.view.hlookat;
+    var v = krpano.view.vlookat;
+    var hsh = hs1.ath;
+    var hsv = hs1.atv;
+ 
+    // map to -180 to +180
+    h = (h -(h|0)) + (((h|0) +360180)%360) - 180.0;
+    hsh = (hsh-(hsh|0)) + (((hsh|0)+360180)%360) - 180.0;
+ 
+    // get the shortest horizontal distance
+    dh = h - hsh;
+    dh += (dh>180) ? -360 : (dh<-180) ? 360 : 0
+ 
+    // follow slowing horizontally
+    hsh += dh*f;
+ 
+    // fade out when farther away
+    var a = Math.abs(v - hs1.atv) / 90.0;
+    a = 0.5 * Math.max(1.0 - 2.0*Math.sqrt(a), 0);
+ 
+    // move up the more looking down
+    v = 45 + v + 10.0 - v*1.5;
+    hsv = hsv*(1-f) + v*f;
+ 
+    // set everything
+    if(!hs3.hovering) hs3.alpha = a;
+    if(!hs4.hovering) hs4.alpha = a;
+    hs4.ath = hs3.ath = hs1.ath = hsh;
+    hs4.atv = hs3.atv = hs1.atv = hsv;
+  }
+]]>
+</action>
 
   <!-- Hide / Show Controls -->
   <action name="hideTourControls">set(tour_displaycontrols, false);events.dispatch(hidetourcontrols);</action>
   <action name="showTourControls">set(tour_displaycontrols, true); events.dispatch(showtourcontrols);</action>
 
 
-<action name="setViewNormal">
-	stopSetViewTweens();
+<action name="setViewArchitectural">
+	if(normalViewActivated,stopSetViewTweens(););
 	if(current_view_isflat === true,
 		setViewNonFlat(VFOV);
 	);
-	setViewNormalComplete();
+	setViewArchitecturalComplete();
 </action>
 
-<action name="setViewNormalComplete">
-	set(view.fisheyefovlink, 0.5);
+<action name="setViewArchitecturalComplete">
 	set(view.fovmax, get(panoview.fovmax));
-	tween(view.architectural, 0.0, distance(1.0, 0.45));
+	set(view.fisheyefovlink, 0.5);
+	tween(view.architectural, 1.0, distance(1.0, 0.45));
 	tween(view.pannini, 0.0, distance(1.0, 0.45), easeOutQuad, if(panniniViewActivated,restoreViewFromPannini();););
-	tween(view.vlookat, get(panoview.v), distance(90, 0.45));
-	tween(view.fov, get(panoview.fov), distance(50, 0.45));
-	tween(view.fisheye, 0.0, distance(1.0, 0.45),
+	tween(view.fisheye, 0.0, distance(1.0, 0.45), easeOutQuad, 
 		set(view.stereographic,false);
+		tween(view.vlookat, get(panoview.v), distance(90, 0.45));
 	);
+	tween(view.fov, get(panoview.fov), distance(50, 0.45));
 </action>
 
-<krpano normalViewActivated="true" />
-<action name="stopSetViewTweens">
-	stoptween(view.fov);
-	stoptween(view.vlookat);
-	stoptween(view.fisheye);
-	stoptween(view.architectural);
-	stoptween(view.pannini);
-</action>
+  <action name="enableGyroscope">
+    changeGyroscopeState(true);
+  </action>
+  <action name="disableGyroscope">
+    changeGyroscopeState(false);
+  </action>
+
 
 <action name="setViewLittlePlanet">
 	set(sceneisfull360, false);
@@ -112,33 +164,34 @@
 	tween(view.fov, 150, distance(179, 0.75));
 </action>
 
-<action name="setViewArchitectural">
-	if(normalViewActivated,stopSetViewTweens(););
+<action name="setViewNormal">
+	stopSetViewTweens();
 	if(current_view_isflat === true,
 		setViewNonFlat(VFOV);
 	);
-	setViewArchitecturalComplete();
+	setViewNormalComplete();
 </action>
 
-<action name="setViewArchitecturalComplete">
-	set(view.fovmax, get(panoview.fovmax));
+<action name="setViewNormalComplete">
 	set(view.fisheyefovlink, 0.5);
-	tween(view.architectural, 1.0, distance(1.0, 0.45));
+	set(view.fovmax, get(panoview.fovmax));
+	tween(view.architectural, 0.0, distance(1.0, 0.45));
 	tween(view.pannini, 0.0, distance(1.0, 0.45), easeOutQuad, if(panniniViewActivated,restoreViewFromPannini();););
-	tween(view.fisheye, 0.0, distance(1.0, 0.45), easeOutQuad, 
-		set(view.stereographic,false);
-		tween(view.vlookat, get(panoview.v), distance(90, 0.45));
-	);
+	tween(view.vlookat, get(panoview.v), distance(90, 0.45));
 	tween(view.fov, get(panoview.fov), distance(50, 0.45));
+	tween(view.fisheye, 0.0, distance(1.0, 0.45),
+		set(view.stereographic,false);
+	);
 </action>
 
-  <action name="enableGyroscope">
-    changeGyroscopeState(true);
-  </action>
-  <action name="disableGyroscope">
-    changeGyroscopeState(false);
-  </action>
-
+<krpano normalViewActivated="true" />
+<action name="stopSetViewTweens">
+	stoptween(view.fov);
+	stoptween(view.vlookat);
+	stoptween(view.fisheye);
+	stoptween(view.architectural);
+	stoptween(view.pannini);
+</action>
 
   <!-- Fullscreen Management -->
   <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);set(fullscreen,false);</action>
