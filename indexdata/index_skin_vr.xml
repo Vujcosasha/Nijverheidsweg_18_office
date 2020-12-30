@@ -416,7 +416,7 @@
     );
   </action>
   <action name="preloadSounds">
-    preloadsound("nijverheidsweg_18_mus__for_vr.mp3");
+    preloadsound("sound.mp3");
   </action>
 
   <action name="play3DLocalSounds">
